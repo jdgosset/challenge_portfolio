@@ -2,73 +2,103 @@
 <html lang="fr" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
 </head>
 
 <body>
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-    <nav>
-        <h5>CODINCAMP</h5>
-    </nav>
 
-    <header>
-        <h1>A SIMPLE THEME</h1>
-        <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
-    </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">CODINCAMP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
 
-    <main>
-        <h2>PORTFOLIO</h2>
-        <article>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        </article>
 
-        <article>
+        <header>
+            <div class="row bg-danger">
+                <div class="col">
+                    <h1>A SIMPLE THEME</h1>
+                    <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+                </div>
+            </div>
 
-        </article>
+        </header>
 
-        <article>
+        <main>
+            <div class="row bg-info">
 
-        </article>
+                <h2>PORTFOLIO</h2>
+                <div class="col-lg-4 col-md-12">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
 
-        <article>
+            </div>
+            <div class="row bg-primary">
+                <div class="col-12">
+                    <h3>ABOUT</h3>
+                </div>
+                <div class="col-6">
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </P>
+                </div>
+                <div class="col-6">
+                    <P>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-        </article>
+                    </P>
+                </div>
+                <div class="col-12">
+                    <button type="button" name="button">Download Theme</button>
+                </div>
 
-        <article>
+            </div>
+            <div>
+                <h3>CONTACT ME</h3>
+                <P>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </P>
 
-        </article>
+            </div>
 
-        <article>
-
-        </article>
-
-        <div>
-            <h3>ABOUT</h3>
-            <P>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </P>
-            <button type="button" name="button">Download Theme</button>
-        </div>
-        <div>
-            <h3>CONTACT ME</h3>
-            <P>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </P>
-
-        </div>
-
+        </main>
         <footer>
             <h4>LOCATION</h4>
             <P>
-                3481 Melrose Place
-                Beverly Hills, CA 90210
+                3481 Melrose Place Beverly Hills, CA 90210
             </P>
             <h4>AROUND THE WEB</h4>
             <P>
@@ -83,7 +113,6 @@
                 Copyright&copy:Your Website 2016
             </p>
         </footer>
-    </main>
 
 
 
@@ -93,13 +122,15 @@
 
 
 
-</div>
+    </div>
 
 
 
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="script/script.js" charset="utf-8"></script>
+
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js" charset="utf-8"></script>
 </body>
 
 </html>
